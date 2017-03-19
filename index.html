@@ -1,79 +1,76 @@
-<!DOCTYPE HTML>
-<!--
-	Coded by Idowu James
-	Kpie Technologies Team | +2347035705023 | idg12009@hotmail.com
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>TULE - Drivers</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Winning companies achieve breakthrough results with people who are engaged, motivated, and competent, what we term EMC. They know that they cannot achieve A-rated results with C-rated people. Therefore, winning companies win not only because they employ the right people, but also because they develop their capacities and provide them with the tools and resources to win." />
-		<meta name="keywords" content="Services, Our Clients, Leadership, Ideas &amp; Strategy, Culture &amp; Execution, People Development, Strategy, StrategyHouse, Consulting, Receivership, Human Resource, Risk Management" />
-		<meta name="author" content="www.strategyhouseng.com: +234 803 438 3069, +234 806 541 9060" />
-		<link rel="stylesheet" href="details/assets/css/main.css" />
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="details/assets/css/noscript.css" /></noscript>
-		
-		
-		<!-- Twitter Card data -->
-		<meta name="twitter:card" value="summary">
 
-		<!-- Open Graph data -->
-		<meta property="og:title" content="Leadership: Strategy House Ltd" />
-		<meta property="og:type" content="article" />
-		<meta property="og:url" content="http://www.booking.tuletaxi.com/" />
-		<meta property="og:image" content="images/rotating_custom_dice_12396.gif" />
-		<meta property="og:description" content="We help organisations outperform their competitors by instilling innovation into the core processes of the organisation." />
-	</head>
-	<body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <script src="assets/jQuery.js"></script>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-dot-circle-o"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>TULE DRIVERS' APP</h1>
-								<h3><!--[-->Drivers Back Office Area </h3>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="register.html">Register</a></li>
-								<li><a href="find.html">Find Passengers</a></li>
-								 <li><a href="driversactivity.html">Chat with Passenger</a></li>
-								<li><a href="my-current-location.html">My Current Location</a></li>
-								<!-- <li><a href="#intro">Leadership</a></li> -->
-								<li><a href="address-locator.html">Address locator</a></li>
-								 <li><a href="backoffice.html">My Back-Office</a></li> 
-							</ul>
-						</nav>
-					</header>
 
-				
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">TULETAXI DRIVERS APP. <br>Phone: +234 703 570 5023, +234 808 353 5857.</p>
-					</footer>
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+     <script src="phonegap.js"></script>
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
 
-			</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
 
-		<!-- Scripts -->
-			<script src="details/assets/js/jquery.min.js"></script>
-			<script src="details/assets/js/skel.min.js"></script>
-			<script src="details/assets/js/util.js"></script>
-			<script src="details/assets/js/main.js"></script>
+         <!-- ng cordova js -->
+  <script src="lib/ngCordova/dist/ng-cordova.js"></script>
 
-	</body>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <!-- your app's js -->
+    <script src="config.js"></script>
+   <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/appctrls/my_rideCtrls.js"></script>
+    <script src="js/appctrls/rateCardCtrl.js"></script>
+    <script src="js/appctrls/recieptCtrl.js"></script>
+    <script src="js/appctrls/settingsCtrl.js"></script>
+    <script src="js/appctrls/rade_map.js"></script>
+    <script src="js/WebServices/WebService.js"></script>
+    <script src="js/directive.js"></script>
+
+
+    <script>
+      /*  var dt = new Date().getTime();
+        var base_link;
+         //base_link= 'http://192.168.0.2/driver_app_js/js/';
+        base_link = 'http://192.168.138.31/shajeer/driver_app_js/js/';
+
+        document.write('<script src="' + base_link + 'config.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'app.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'controllers.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'appctrls/my_rideCtrls.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'appctrls/rateCardCtrl.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'appctrls/recieptCtrl.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'appctrls/settingsCtrl.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'appctrls/rade_map.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'WebServices/WebService.js?v=' + dt + '"><\/script>');
+        document.write('<script src="' + base_link + 'directive.js?v=' + dt + '"><\/script>');*/
+    </script>
+
+
+   <!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBksdkjWFIfdMS_IhY8sEit6r9IPrPq-lA&amp;sensor=true&amp;libraries=places"></script>-->
+
+    <script src="http://maps.googleapis.com/maps/api/js?key="+map_api_key+"&amp;sensor=true&amp;libraries=places"></script>
+
+
+</head>
+
+<body ng-app="starter">
+    <ion-nav-view></ion-nav-view>
+</body>
+
 </html>
