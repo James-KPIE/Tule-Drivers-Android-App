@@ -18,7 +18,7 @@
 					
 					<div class='input-box'>
 						<div class="error-container " ng-show="login_form.mail.$dirty && login_form.mail.$invalid" >
-							<small class="error	 " ng-show="login_form.mail.$error.required">{{ 'Enter user name / email / mobile' | langTranslate: appConvertedLang['Enter_user_name_email_mobile'] }}</small>
+							<small class="error	 " ng-show="login_form.mail.$error.required">{{ 'Enter user name' | langTranslate: appConvertedLang['Enter_user_name_email_mobile'] }}</small>
 								
 						</div>
 						<input name='mail' ng-model='login.mail' required placeholder="{{ 'Enter user name / email / mobile' | langTranslate: appConvertedLang['Enter_user_name_email_mobile'] }}" class='color-yellow' type='text' />
